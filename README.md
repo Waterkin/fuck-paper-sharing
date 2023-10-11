@@ -1,5 +1,5 @@
 <div align="center">
-<img src="img/output.png" height=400>
+<img src="img/output.png" height=300>
   <h3><b> A Paper Sharing PPT Tool for Weekly Meeting. </b></h3>
 </div>
 
