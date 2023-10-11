@@ -1,18 +1,23 @@
-# fuck-paper-sharing
+<div align="center">
+<img src="img/output.png" height=400>
+  <h3><b> A Paper Sharing PPT Tool for Weekly Meeting. </b></h3>
+</div>
+
+---
+
+# ✨ fuck-paper-sharing
 
 fuck-paper-sharing(去踏马的论文分享) is a tool to help you prepare paper sharing PPT in weekly meeting with your supervisor.
 
 Our advantage lies in conducting data cleaning directly on the LaTeX source files, enabling us to obtain accurate and precise text from the papers, without the issues of text omission or formatting errors during pdf2txt conversion due to the imperfections of existing technologies (such as inaccurate OCR recognition).
 
-![ArXiv Paper & OpenReview to txt](./img/output.png)
-
-# Installation
+# 🎯 Get Started
 
 To install the dependencies, run:
 
 `pip install -r requirements.txt`
 
-# Usage
+# 📌 Usage
 
 
 Open fuck.ipynb and input the title of the paper. (We only support papers that can be both searched in arXiv and OpenReview)
@@ -22,6 +27,6 @@ You will get a cleaned latex version of the paper and its OpenReview data, inclu
 Using the above data, you can DIY with your ChatGPT like: `Help me prepare a paper sharing PPT with the following paper contents.`, `Revise your advice with the following OpenReview comments.`
 
 
-# Acknowledgement
+# 🔗 Highlighted Features
 
 Thanks for OpenAI for ChatGPT, arXiv API, OpenReview API and arxiv-latex-cleaner.
