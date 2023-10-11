@@ -2,7 +2,14 @@
 
 fuck-paper-sharing(去踏马的论文分享) is a tool to help you prepare paper sharing PPT in weekly meeting with your supervisor.
 
+# Installation
+
+To install the dependencies, run:
+
+`pip install -r requirements.txt`
+
 # Usage
+
 
 Open fuck.ipynb and input the title of the paper. (We only support papers that can be both searched in arXiv and OpenReview)
 
