@@ -1,0 +1,44 @@
+patterns_and_insertions:
+    [
+        {
+            "pattern" : '(?:\\figcomp{\s*)(?P<first>.*?)\s*}\s*{\s*(?P<second>.*?)\s*}\s*{\s*(?P<third>.*?)\s*}',
+            "insertion" : '\parbox[c]{{ {second} \linewidth}} {{ \includegraphics[width= {third} \linewidth]{{figures/{first} }} }}',
+            "description" : "Replace figcomp",
+            # "strip_whitespace": n 
+        },
+    ]
+verbose: False 
+commands_to_delete: [ # 删除\todo{}所有
+    'todo',
+    'vspace',
+    'setlist',
+    'bibliography',
+    'bibliographystyle',
+    'cite',
+    'newcommand',
+    'definecolor',
+    'usepackage'
+]
+commands_only_to_delete: [ # 删除\textit 格式
+    'textit',
+    'textbf',
+    'mathbf',
+    'mathbbm',
+    'boldsymbol',
+    'small',
+    'newpage',
+    'clearpage',
+    'normalsize',
+    'S',
+    'ref',
+    'url',
+    
+]
+environments_to_delete: [ # 删除\begin{figure} \end{figure}之间的
+    'figure',
+    'table',
+    'figure*',
+    'table*',
+    'subfigure',
+    'subfigure*'
+]
